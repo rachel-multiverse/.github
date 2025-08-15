@@ -27,6 +27,7 @@ We're implementing the Rachel card game on EVERY computing platform that exists.
 | Atari 2600 | [rachel-atari2600](https://github.com/rachel-multiverse/rachel-atari2600) | ✅ Complete | 2025 | Impossible |
 | Atari 5200 | [rachel-atari5200](https://github.com/rachel-multiverse/rachel-atari5200) | ✅ Complete | 2025 | Planned |
 | ZX Spectrum | [rachel-spectrum](https://github.com/rachel-multiverse/rachel-spectrum) | ✅ Complete | 2025 | Via Spectranet |
+| TI-83/84 | [rachel-ti83](https://github.com/rachel-multiverse/rachel-ti83) | ✅ Complete | 2025 | Link Cable |
 | Web | rachel-web | 📋 Planned | 2025 | Yes |
 | ... | ... | ... | ... | ... |
 | Smart Fridge | rachel-fridge | 🤔 Why | 2026 | Unfortunately |
@@ -79,7 +80,7 @@ Every computer that has ever existed should be able to play Rachel against every
 ## Statistics
 
 - Platforms Targeted: 200+
-- Platforms Complete: 8
+- Platforms Complete: 9
 - Languages Planned: 100+
 - Sanity Remaining: 0
 - Regrets: 0
@@ -106,4 +107,4 @@ MIT - Port it to everything.
 
 *Started December 2024. Estimated completion: Heat death of universe.*
 
-*Platform counter: 8 of ∞*
+*Platform counter: 9 of ∞*
