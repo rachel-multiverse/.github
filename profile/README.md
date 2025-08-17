@@ -28,7 +28,17 @@ We're implementing the Rachel card game on EVERY computing platform that exists.
 | Atari 5200 | [rachel-atari5200](https://github.com/rachel-multiverse/rachel-atari5200) | ✅ Complete | 2025 | Planned |
 | ZX Spectrum | [rachel-spectrum](https://github.com/rachel-multiverse/rachel-spectrum) | ✅ Complete | 2025 | Via Spectranet |
 | TI-83/84 | [rachel-ti83](https://github.com/rachel-multiverse/rachel-ti83) | ✅ Complete | 2025 | Link Cable |
-| Web | rachel-web | 📋 Planned | 2025 | Yes |
+| NES/Famicom | [rachel-nes](https://github.com/rachel-multiverse/rachel-nes) | ✅ Complete | 2025 | Four Score |
+| MSX | [rachel-msx](https://github.com/rachel-multiverse/rachel-msx) | ✅ Complete | 2025 | Modem Cart |
+| Amstrad CPC | [rachel-cpc](https://github.com/rachel-multiverse/rachel-cpc) | ✅ Complete | 2025 | Serial Port |
+| BBC Micro | [rachel-bbc](https://github.com/rachel-multiverse/rachel-bbc) | ✅ Complete | 2025 | Econet |
+| TRS-80 | [rachel-trs80](https://github.com/rachel-multiverse/rachel-trs80) | ✅ Complete | 2025 | RS-232 |
+| VIC-20 | [rachel-vic20](https://github.com/rachel-multiverse/rachel-vic20) | ✅ Complete | 2025 | User Port |
+| Atari 800 | [rachel-atari800](https://github.com/rachel-multiverse/rachel-atari800) | ✅ Complete | 2025 | SIO Port |
+| ColecoVision | [rachel-coleco](https://github.com/rachel-multiverse/rachel-coleco) | ✅ Complete | 2025 | Expansion |
+| Intellivision | [rachel-intv](https://github.com/rachel-multiverse/rachel-intv) | ✅ Complete | 2025 | PlayCable |
+| Master System | [rachel-sms](https://github.com/rachel-multiverse/rachel-sms) | ✅ Complete | 2025 | Link Port |
+| TI-99/4A | [rachel-ti994a](https://github.com/rachel-multiverse/rachel-ti994a) | ✅ Complete | 2025 | Cassette |
 | ... | ... | ... | ... | ... |
 | Smart Fridge | rachel-fridge | 🤔 Why | 2026 | Unfortunately |
 | MiSTer FPGA | rachel-fpga | 😱 Hardware | 2026 | 50MHz |
@@ -80,9 +90,9 @@ Every computer that has ever existed should be able to play Rachel against every
 ## Statistics
 
 - Platforms Targeted: 200+
-- Platforms Complete: 9
+- Platforms Complete: 20 🎉
 - Languages Planned: 100+
-- Sanity Remaining: 0
+- Sanity Remaining: -100
 - Regrets: 0
 
 ## The Motto
@@ -107,4 +117,6 @@ MIT - Port it to everything.
 
 *Started December 2024. Estimated completion: Heat death of universe.*
 
-*Platform counter: 9 of ∞*
+*Platform counter: 20 of ∞* 🚀
+
+**LATEST**: Just implemented 11 platforms in ONE SESSION! From NES to TI-99/4A!
