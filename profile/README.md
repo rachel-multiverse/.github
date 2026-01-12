@@ -21,7 +21,7 @@ We're implementing the Rachel card game on EVERY computing platform that exists.
 | Marketing Site | [rachel-site](https://github.com/rachel-multiverse/rachel-site) | 🌐 [Live](https://rachel.stevehill.xyz) |
 | Documentation | [docs](https://github.com/rachel-multiverse/docs) | 📖 Active |
 | Go Server | [rachel-server](https://github.com/rachel-multiverse/rachel-server) | 🔧 In development |
-| Phoenix Prototype | [rachel-phoenix](https://github.com/rachel-multiverse/rachel-phoenix) | ✅ Complete |
+| Phoenix Prototype | [rachel-phoenix](https://github.com/rachel-multiverse/rachel-phoenix) | 📦 Archived |
 
 ## Vintage Platforms
 
