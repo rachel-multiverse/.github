@@ -4,7 +4,7 @@
 
 ## What Is This?
 
-We're implementing the Rachel card game on EVERY computing platform that exists. From the Fairchild Channel F (1976) to modern quantum computers. If it can compute, it must run Rachel.
+We're implementing the Rachel card game on EVERY computing platform that exists. From the Fairchild Channel F (1976) to iOS. If it can compute, it must run Rachel.
 
 ## The Sacred Rules
 
@@ -13,87 +13,82 @@ We're implementing the Rachel card game on EVERY computing platform that exists.
 - Every platform behaves identically
 - The cards are eternal
 
-## Current Platforms
+## Primary Projects
 
-| Platform | Repository | Status | Year | Network |
-|----------|-----------|--------|------|---------|
-| Core Rules | [rachel-core](https://github.com/rachel-multiverse/rachel-core) | ✅ Complete | Eternal | N/A |
-| Protocol | [rachel-protocol](https://github.com/rachel-multiverse/rachel-protocol) | ✅ Specified | 2024 | Definition |
-| Terminal | [rachel-terminal](https://github.com/rachel-multiverse/rachel-terminal) | ✅ Working | 2024 | 🚧 Soon |
-| DOS | [rachel-dos](https://github.com/rachel-multiverse/rachel-dos) | ✅ Complete | 2025 | Planned |
-| Commodore 64 | [rachel-c64](https://github.com/rachel-multiverse/rachel-c64) | ✅ Complete | 2025 | Via WiC64 |
-| Game Boy | [rachel-gameboy](https://github.com/rachel-multiverse/rachel-gameboy) | ✅ Complete | 2025 | Planned |
-| Apple II | [rachel-apple2](https://github.com/rachel-multiverse/rachel-apple2) | ✅ Complete | 2025 | Planned |
-| Atari 2600 | [rachel-atari2600](https://github.com/rachel-multiverse/rachel-atari2600) | ✅ Complete | 2025 | Impossible |
-| Atari 5200 | [rachel-atari5200](https://github.com/rachel-multiverse/rachel-atari5200) | ✅ Complete | 2025 | Planned |
-| ZX Spectrum | [rachel-spectrum](https://github.com/rachel-multiverse/rachel-spectrum) | ✅ Complete | 2025 | Via Spectranet |
-| TI-83/84 | [rachel-ti83](https://github.com/rachel-multiverse/rachel-ti83) | ✅ Complete | 2025 | Link Cable |
-| NES/Famicom | [rachel-nes](https://github.com/rachel-multiverse/rachel-nes) | ✅ Complete | 2025 | Four Score |
-| MSX | [rachel-msx](https://github.com/rachel-multiverse/rachel-msx) | ✅ Complete | 2025 | Modem Cart |
-| Amstrad CPC | [rachel-cpc](https://github.com/rachel-multiverse/rachel-cpc) | ✅ Complete | 2025 | Serial Port |
-| BBC Micro | [rachel-bbc](https://github.com/rachel-multiverse/rachel-bbc) | ✅ Complete | 2025 | Econet |
-| TRS-80 | [rachel-trs80](https://github.com/rachel-multiverse/rachel-trs80) | ✅ Complete | 2025 | RS-232 |
-| VIC-20 | [rachel-vic20](https://github.com/rachel-multiverse/rachel-vic20) | ✅ Complete | 2025 | User Port |
-| Atari 800 | [rachel-atari800](https://github.com/rachel-multiverse/rachel-atari800) | ✅ Complete | 2025 | SIO Port |
-| ColecoVision | [rachel-coleco](https://github.com/rachel-multiverse/rachel-coleco) | ✅ Complete | 2025 | Expansion |
-| Intellivision | [rachel-intv](https://github.com/rachel-multiverse/rachel-intv) | ✅ Complete | 2025 | PlayCable |
-| Master System | [rachel-sms](https://github.com/rachel-multiverse/rachel-sms) | ✅ Complete | 2025 | Link Port |
-| TI-99/4A | [rachel-ti994a](https://github.com/rachel-multiverse/rachel-ti994a) | ✅ Complete | 2025 | Cassette |
-| ... | ... | ... | ... | ... |
-| Smart Fridge | rachel-fridge | 🤔 Why | 2026 | Unfortunately |
-| MiSTer FPGA | rachel-fpga | 😱 Hardware | 2026 | 50MHz |
+| Project | Repository | Status |
+|---------|-----------|--------|
+| iOS App | [rachel-ios](https://github.com/rachel-multiverse/rachel-ios) | 📱 Pre-launch |
+| Marketing Site | [rachel-site](https://github.com/rachel-multiverse/rachel-site) | 🌐 [Live](https://rachel.stevehill.xyz) |
+| Documentation | [docs](https://github.com/rachel-multiverse/docs) | 📖 Active |
+| Go Server | [rachel-server](https://github.com/rachel-multiverse/rachel-server) | 🔧 In development |
+| Phoenix Prototype | [rachel-phoenix](https://github.com/rachel-multiverse/rachel-phoenix) | ✅ Complete |
 
-**Target: 200+ platforms**
+## Vintage Platforms
 
-## How To Contribute
+| Platform | Repository | CPU | Network |
+|----------|-----------|-----|---------|
+| ZX Spectrum | [rachel-zx-spectrum](https://github.com/rachel-multiverse/rachel-zx-spectrum) | Z80 | Spectranet |
+| Commodore 64 | [rachel-c64](https://github.com/rachel-multiverse/rachel-c64) | 6502 | WiC64 |
+| Commodore 128 | [rachel-c128](https://github.com/rachel-multiverse/rachel-c128) | 8502 | User Port |
+| Commodore Plus/4 | [rachel-commodore-plus4](https://github.com/rachel-multiverse/rachel-commodore-plus4) | 7501 | User Port |
+| VIC-20 | [rachel-vic20](https://github.com/rachel-multiverse/rachel-vic20) | 6502 | User Port |
+| Amiga | [rachel-amiga](https://github.com/rachel-multiverse/rachel-amiga) | 68000 | TCP/IP |
+| Atari ST | [rachel-atari-st](https://github.com/rachel-multiverse/rachel-atari-st) | 68000 | MIDI Net |
+| Atari 800 | [rachel-atari8](https://github.com/rachel-multiverse/rachel-atari8) | 6502 | SIO Port |
+| Apple II | [rachel-apple2](https://github.com/rachel-multiverse/rachel-apple2) | 6502 | Super Serial |
+| BBC Micro | [rachel-bbc-micro](https://github.com/rachel-multiverse/rachel-bbc-micro) | 6502 | Econet |
+| Acorn Electron | [rachel-electron](https://github.com/rachel-multiverse/rachel-electron) | 6502 | Serial |
+| MSX | [rachel-msx](https://github.com/rachel-multiverse/rachel-msx) | Z80 | Modem Cart |
+| Amstrad CPC | [rachel-amstrad-cpc](https://github.com/rachel-multiverse/rachel-amstrad-cpc) | Z80 | Serial |
+| TRS-80 | [rachel-trs80](https://github.com/rachel-multiverse/rachel-trs80) | Z80 | RS-232 |
+| TRS-80 CoCo | [rachel-coco](https://github.com/rachel-multiverse/rachel-coco) | 6809 | Serial |
+| Dragon 32/64 | [rachel-dragon](https://github.com/rachel-multiverse/rachel-dragon) | 6809 | Serial |
+| Oric | [rachel-oric](https://github.com/rachel-multiverse/rachel-oric) | 6502 | Serial |
+| Enterprise 128 | [rachel-enterprise](https://github.com/rachel-multiverse/rachel-enterprise) | Z80 | Serial |
+| SAM Coupé | [rachel-samcoupe](https://github.com/rachel-multiverse/rachel-samcoupe) | Z80 | Serial |
+| Sinclair QL | [rachel-ql](https://github.com/rachel-multiverse/rachel-ql) | 68008 | Serial |
+| TI-99/4A | [rachel-ti99](https://github.com/rachel-multiverse/rachel-ti99) | TMS9900 | Cassette |
+| MS-DOS | [rachel-dos](https://github.com/rachel-multiverse/rachel-dos) | x86 | IPX/Serial |
+| Classic Mac | [rachel-mac-classic](https://github.com/rachel-multiverse/rachel-mac-classic) | 68000 | LocalTalk |
 
-1. Pick a platform (any platform)
-2. Implement Rachel using [rachel-core](https://github.com/rachel-multiverse/rachel-core)
-3. Follow the [protocol](https://github.com/rachel-multiverse/rachel-protocol) for networking
-4. Create repo as `rachel-[platform]`
-5. Submit PR to add to platform list
-6. Lose sanity
-7. Find glory
+## Consoles
 
-## The Convergence Event
-
-**2026**: 100+ platforms playing simultaneously in one massive tournament.
-
-## Quick Start
-
-### Play Now (Terminal)
-```bash
-git clone https://github.com/rachel-multiverse/rachel-terminal
-cd rachel-terminal
-make
-./rachel_terminal
-```
-
-### Implement Your Own Platform
-```bash
-# 1. Get the rules
-git clone https://github.com/rachel-multiverse/rachel-core
-
-# 2. Copy rules.h and rules.c to your project
-
-# 3. Implement UI for your platform
-
-# 4. ??? 
-
-# 5. Rachel runs on your toaster
-```
-
-## The Goal
-
-Every computer that has ever existed should be able to play Rachel against every other computer. A Fairchild Channel F from 1976 should be able to play against an iPhone 15. This is insane. We're doing it anyway.
+| Console | Repository | CPU | Network |
+|---------|-----------|-----|---------|
+| NES | [rachel-nintendo-nes](https://github.com/rachel-multiverse/rachel-nintendo-nes) | 6502 | Four Score |
+| Game Boy | [rachel-nintendo-gameboy](https://github.com/rachel-multiverse/rachel-nintendo-gameboy) | Z80-like | Link Cable |
+| Game Boy Color | [rachel-nintendo-gameboycolor](https://github.com/rachel-multiverse/rachel-nintendo-gameboycolor) | Z80-like | Link Cable |
+| Master System | [rachel-sega-mastersystem](https://github.com/rachel-multiverse/rachel-sega-mastersystem) | Z80 | Link Port |
+| Genesis | [rachel-sega-genesis](https://github.com/rachel-multiverse/rachel-sega-genesis) | 68000 | Meganet |
+| Game Gear | [rachel-sega-gamegear](https://github.com/rachel-multiverse/rachel-sega-gamegear) | Z80 | Gear-to-Gear |
+| Atari Lynx | [rachel-lynx](https://github.com/rachel-multiverse/rachel-lynx) | 65C02 | ComLynx |
+| Atari 7800 | [rachel-atari-7800](https://github.com/rachel-multiverse/rachel-atari-7800) | 6502C | Controller Port |
+| PC Engine | [rachel-nec-pcengine](https://github.com/rachel-multiverse/rachel-nec-pcengine) | HuC6280 | Multitap |
+| ColecoVision | [rachel-coleco-colecovision](https://github.com/rachel-multiverse/rachel-coleco-colecovision) | Z80 | Expansion |
 
 ## Statistics
 
-- Platforms Targeted: 200+
-- Platforms Complete: 20 🎉
-- Languages Planned: 100+
-- Sanity Remaining: -100
-- Regrets: 0
+```
+Repositories:        39
+Platforms Complete:  34
+iOS App:             Pre-launch
+Sanity Remaining:   -200
+Regrets:             0
+```
+
+## The Protocol
+
+RUBP (Rachel Universal Binary Protocol):
+- 64 bytes, fixed size
+- "RACH" magic header
+- Platform-agnostic
+- Works on 1KB RAM
+
+See [PROTOCOL.md](https://github.com/rachel-multiverse/docs/blob/main/PROTOCOL.md)
+
+## The Goal
+
+Every computer that has ever existed should be able to play Rachel against every other computer. A ZX Spectrum from 1982 should be able to play against an iPhone 16. This is insane. We're doing it anyway.
 
 ## The Motto
 
@@ -104,10 +99,9 @@ Every computer that has ever existed should be able to play Rachel against every
 
 ## Links
 
-- [Game Rules](https://github.com/rachel-multiverse/rachel-core)
-- [Protocol Specification](https://github.com/rachel-multiverse/rachel-protocol/blob/main/PROTOCOL.md)
-- [Discord](#) (Coming soon)
-- [The Manifesto](#) (You're not ready)
+- [Game Rules](https://github.com/rachel-multiverse/docs/blob/main/GAME_RULES.md)
+- [Protocol Specification](https://github.com/rachel-multiverse/docs/blob/main/PROTOCOL.md)
+- [Marketing Site](https://rachel.stevehill.xyz)
 
 ## License
 
@@ -117,6 +111,6 @@ MIT - Port it to everything.
 
 *Started December 2024. Estimated completion: Heat death of universe.*
 
-*Platform counter: 20 of ∞* 🚀
+*Platform counter: 39 of ∞* 🚀
 
-**LATEST**: Just implemented 11 platforms in ONE SESSION! From NES to TI-99/4A!
+**LATEST**: iOS app approaching App Store launch. 34 retro platforms implemented.
