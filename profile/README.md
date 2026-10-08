@@ -15,11 +15,9 @@ We're implementing the Rachel card game across vintage computers and consoles, w
 
 ## Status, Honestly
 
-**Networked play is working in tested configurations.** The native Apple and Android clients and the C64 emulator have completed cross-platform games through the Go host, including reconnect and process-restart scenarios. The C64 and VIC-20 also have offline solo engines.
+**Networked play is working in tested configurations.** The native iOS and Android apps have completed Go-hosted games alongside C64 Ultimate emulation, including reconnect and an Android process restart. These runs used mobile simulators and emulators. The C64 and VIC-20 also have offline solo engines.
 
-Evidence is specific to a build, machine and transport. A codec check proves wire encoding; an emulator run proves that emulated configuration. Neither is a physical-hardware certification. See each repository's verification records and the public [hardware evidence guide](https://github.com/rachel-multiverse/protocol/blob/main/HARDWARE_TESTING.md).
-- ✅ **Conformant** — codec verified against the golden RUBP vectors on the real machine
-- 🔬 **Emulator ready** — client and emulator both exist; conformance pass not yet run
+Evidence is specific to a build, machine and transport. A codec check proves wire encoding; an emulator run proves that emulated configuration. Physical hardware testing and a public game server remain outstanding. See each repository's verification records and the public [hardware evidence guide](https://github.com/rachel-multiverse/protocol/blob/main/HARDWARE_TESTING.md).
 
 Platforms without an emulator yet have been parked (and their stub repos removed) until a core exists to test them against. No more imaginary checkmarks.
 
@@ -27,33 +25,33 @@ Platforms without an emulator yet have been parked (and their stub repos removed
 
 | Project | Repository | Status |
 |---------|-----------|--------|
-| iOS App | [rachel-ios](https://github.com/rachel-multiverse/rachel-ios) | Native Apple client |
+| iOS App | Private source | Native Apple client |
 | Marketing Site | [rachel-site](https://github.com/rachel-multiverse/rachel-site) | 🌐 [Live](https://rachel.stevehill.xyz) |
 | Protocol and porting guides | [protocol](https://github.com/rachel-multiverse/protocol) | Public specification and fixtures |
-| Android App | [rachel-android](https://github.com/rachel-multiverse/rachel-android) | Native Kotlin / Compose client |
-| Go Server | [rachel-server](https://github.com/rachel-multiverse/rachel-server) | 🔧 In development |
+| Android App | Private source | Native Kotlin / Compose client |
+| Go Server | Private source | Tested locally; public hosting pending |
 | Phoenix Prototype | [rachel-phoenix](https://github.com/rachel-multiverse/rachel-phoenix) | 📦 Archived (reference) |
 
 ## Platforms
 
-| Platform | Repository | CPU | RUBP |
-|----------|-----------|-----|------|
-| NES | [rachel-nintendo-nes](https://github.com/rachel-multiverse/rachel-nintendo-nes) | 6502 | ✅ Conformant |
-| Commodore 64 | [rachel-commodore-64](https://github.com/rachel-multiverse/rachel-commodore-64) | 6502 | ✅ Conformant |
-| ZX Spectrum | [rachel-sinclair-zx-spectrum](https://github.com/rachel-multiverse/rachel-sinclair-zx-spectrum) | Z80 | ✅ Conformant |
-| Dragon 32/64 | [rachel-dragon-32](https://github.com/rachel-multiverse/rachel-dragon-32) | 6809 | ✅ Conformant |
-| Amiga | [rachel-commodore-amiga](https://github.com/rachel-multiverse/rachel-commodore-amiga) | 68000 | ✅ Conformant |
-| BBC Micro | [rachel-acorn-bbc](https://github.com/rachel-multiverse/rachel-acorn-bbc) | 6502 | 🔬 Emulator ready |
-| Acorn Electron | [rachel-acorn-electron](https://github.com/rachel-multiverse/rachel-acorn-electron) | 6502 | 🔬 Emulator ready |
-| Atari 800/XL | [rachel-atari-800](https://github.com/rachel-multiverse/rachel-atari-800) | 6502 | 🔬 Emulator ready |
-| Atari 7800 | [rachel-atari-7800](https://github.com/rachel-multiverse/rachel-atari-7800) | 6502 | 🔬 Emulator ready |
-| VIC-20 | [rachel-commodore-vic20](https://github.com/rachel-multiverse/rachel-commodore-vic20) | 6502 | 🔬 Emulator ready |
-| Oric-1/Atmos | [rachel-oric](https://github.com/rachel-multiverse/rachel-oric) | 6502 | 🔬 Emulator ready |
-| MSX | [rachel-msx](https://github.com/rachel-multiverse/rachel-msx) | Z80 | 🔬 Emulator ready |
-| Master System | [rachel-sega-mastersystem](https://github.com/rachel-multiverse/rachel-sega-mastersystem) | Z80 | 🔬 Emulator ready |
-| Game Gear | [rachel-sega-gamegear](https://github.com/rachel-multiverse/rachel-sega-gamegear) | Z80 | 🔬 Emulator ready |
-| ColecoVision | [rachel-coleco-colecovision](https://github.com/rachel-multiverse/rachel-coleco-colecovision) | Z80 | 🔬 Emulator ready |
-| Game Boy | [rachel-nintendo-gameboy](https://github.com/rachel-multiverse/rachel-nintendo-gameboy) | SM83 | 🔬 Emulator ready |
+| Platform | Repository | CPU |
+|----------|-----------|-----|
+| NES | [rachel-nintendo-nes](https://github.com/rachel-multiverse/rachel-nintendo-nes) | 6502 |
+| Commodore 64 | [rachel-commodore-64](https://github.com/rachel-multiverse/rachel-commodore-64) | 6502 |
+| ZX Spectrum | [rachel-sinclair-zx-spectrum](https://github.com/rachel-multiverse/rachel-sinclair-zx-spectrum) | Z80 |
+| Dragon 32/64 | [rachel-dragon-32](https://github.com/rachel-multiverse/rachel-dragon-32) | 6809 |
+| Amiga | [rachel-commodore-amiga](https://github.com/rachel-multiverse/rachel-commodore-amiga) | 68000 |
+| BBC Micro | [rachel-acorn-bbc](https://github.com/rachel-multiverse/rachel-acorn-bbc) | 6502 |
+| Acorn Electron | [rachel-acorn-electron](https://github.com/rachel-multiverse/rachel-acorn-electron) | 6502 |
+| Atari 800/XL | [rachel-atari-800](https://github.com/rachel-multiverse/rachel-atari-800) | 6502 |
+| Atari 7800 | [rachel-atari-7800](https://github.com/rachel-multiverse/rachel-atari-7800) | 6502 |
+| VIC-20 | [rachel-commodore-vic20](https://github.com/rachel-multiverse/rachel-commodore-vic20) | 6502 |
+| Oric-1/Atmos | [rachel-oric](https://github.com/rachel-multiverse/rachel-oric) | 6502 |
+| MSX | [rachel-msx](https://github.com/rachel-multiverse/rachel-msx) | Z80 |
+| Master System | [rachel-sega-mastersystem](https://github.com/rachel-multiverse/rachel-sega-mastersystem) | Z80 |
+| Game Gear | [rachel-sega-gamegear](https://github.com/rachel-multiverse/rachel-sega-gamegear) | Z80 |
+| ColecoVision | [rachel-coleco-colecovision](https://github.com/rachel-multiverse/rachel-coleco-colecovision) | Z80 |
+| Game Boy | [rachel-nintendo-gameboy](https://github.com/rachel-multiverse/rachel-nintendo-gameboy) | SM83 |
 
 ## Evidence and releases
 
@@ -61,7 +59,7 @@ The 16 vintage repositories span codec conformance, build checks and playable em
 
 ## The Protocol
 
-RUBP (Rachel Universal Binary Protocol):
+RUBP (Rachel Unified Binary Protocol):
 - 64 bytes, fixed size
 - "RACH" magic header
 - Big-endian, platform-agnostic
